@@ -19,7 +19,8 @@ $(document).ready(function() {
     event.preventDefault();
     let groceryList = [];
     $("div#formInputs > input").each(function() {
-      if($(this).val()){
+      if($(this).val())
+      {
         groceryList.push($(this).val());
       }
     });
@@ -28,6 +29,6 @@ $(document).ready(function() {
 
     transformedList.forEach(function(item){
       $("#result").append("<li>" + item + "</li>");
-    })
+    });
   });
 });

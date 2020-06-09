@@ -1,4 +1,4 @@
-# _Favorite Things_
+# _Groceries_
 
 #### _JavaScript Array exercise for Epicodus, 6/3/2020_
 
@@ -6,14 +6,16 @@
 
 ## Description
 
-_This web page asks the user for 5 of their favorite things and displays the second, first and third items inputted as an unordered list_
+_This web page will ask the user for grocery list items (with a button that adds as many input fields as needed) and makes a grocery list sorted into alphabetical order._
+
 ## Setup/Installation Requirements
 
 * Clone this repository
-* Navigate to the favorite-things directory
+* Navigate to the groceries directory
 * Open index.html in a browser to view page.
-*click to select a text box, then type in one of your favorite things in each text box.
-*click the submit button near the bottom of the page to display the second, first, and third items you inputted.
+* Click inside a text field and type a grocery item.
+* To enter more grocery items, click the "add input" button and enter more items in the new text boxes.
+* When you've entered all of your items, click the submit button near the bottom of the page to display your new grocery list in alphabetical order!
 
 
 ## Known Bugs
